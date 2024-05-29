@@ -1,11 +1,27 @@
 # Pepse - 2D Platformer Game
 
 Welcome to **Pepse**, a thrilling 2D platformer game developed in Java using the DanoGameLab library. Experience a vibrant world with a day-night cycle, dynamic terrain, and interactive flora.
+<br><br>
+*Enjoying Day Light*
+<br>
+<img src="assets/ScreenShots/Desktop%20Screenshot%202024.05.29%20-%2019.41.06.55.png" alt="Day-Night Cycle in Action" width="500"/>
+<br><br>
 
-![Gameplay Screenshot 1](link_to_image1)
+*Night is Comming*
+<br>
+<img src="assets/ScreenShots/Desktop%20Screenshot%202024.05.29%20-%2019.41.17.48.png" alt="Exploring Procedurally Generated Terrain" width="500"/>
+<br><br>
 
+*Jumping arround*
+<br>
+<img src="assets/ScreenShots/Desktop%20Screenshot%202024.05.29%20-%2019.41.26.96.png" alt="Interacting with Flora" width="500"/>
+<br><br>
 
-![Gameplay Screenshot 2](link_to_image2)
+*Pikking up some fruits*
+<br>
+<img src="assets/ScreenShots/Desktop%20Screenshot%202024.05.29%20-%2019.41.39.52.png" alt="Dynamic Lighting Effects" width="500"/>
+<br><br>
+
 
 
 ## Features
