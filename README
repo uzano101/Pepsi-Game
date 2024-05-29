@@ -1,0 +1,37 @@
+alon.uzan
+209503739
+
+Background:
+In developing the Tree package, the aim was to create a modular and flexible system to represent
+trees in the game world. The chosen implementation includes the Flora class as the core
+representation of trees, with additional classes Trunk, LeafGenerator, and Fruits added
+to enhance the functionality and visual appeal of the trees. Each class has a specific
+role in the tree ecosystem, from creating tree trunks to generating leaves and fruits.
+
+1. Collaboration about the additional classes:
+The additional classes, Trunk, LeafGenerator, and Fruits, collaborate to enrich the representation
+of trees within the game world. Trunk provides the foundation of the tree structure, while
+LeafGenerator and Fruits add visual elements such as leaves and fruits to enhance realism
+and aesthetics. LeafGenerator generates leaf GameObjects around the trunk, while Fruits
+generates fruit GameObjects. These classes work together to create a more immersive tree experience.
+
+2. Connections between the classes:
+- **Flora:** Acts as the central class representing the flora (trees) in the game world.
+ It provides a method to create a set of tree trunks within a specified range on the terrain.
+- **Trunk:** Represents a tree trunk GameObject in the game world. It is instantiated by Flora
+ and serves as the foundation for the tree structure.
+- **LeafGenerator:** Generates and manages leaf GameObjects for a tree trunk. It collaborates
+ with Trunk to position leaves around the trunk and provides methods to rotate them.
+- **Fruits:** Represents the fruits growing on a tree in the game world. It is associated with
+ a specific trunk and generates fruit GameObjects around it. Additionally, it provides methods
+ to transition the colors of fruits.
+
+3. Design pattern implementation:
+The implementation of the Tree package exhibits characteristics of the Composite Pattern.
+The Flora class acts as the composite, representing a collection of tree trunks (components),
+while Trunk, LeafGenerator, and Fruits act as the leaf nodes. This pattern allows for the
+construction of complex tree structures from simple components and facilitates the addition
+of new elements (leaves, fruits) without modifying the core Flora class. Additionally,
+the use of GameObjects in Trunk, LeafGenerator, and Fruits classes follows the
+Entity-Component-System (ECS) pattern, enhancing modularity and reusability.
+
