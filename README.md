@@ -48,10 +48,6 @@ We love and appreciate community contributions! Here's how you can help:
 - **Feature Requests**: Have an idea to improve the game? Share it with us!
 - **Pull Requests**: Want to contribute code? Submit your pull requests!
 
-## License
-
-Pepse is licensed under the MIT License. Check out the [LICENSE](link_to_LICENSE_file) file for more information.
-
 ---
 
 Dive into the world of Pepse, explore its features, and become a part of our growing community! Enjoy the game, and let's make it better together.
